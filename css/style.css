@@ -1,3 +1,31 @@
-body {
+:root {
+    --sedan-orange: hsl(31, 77%, 52%);
+    --suv-blue: hsl(184, 100%, 22%);
+    --lux-blue: hsl(179, 100%, 13%);
+}
+
+body, h1, button {
     background-color: hsl(0, 0%, 95%);
+}
+
+body {
+    font-size: 15px;
+}
+
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.sedan {
+    background-color: var(--sedan-orange);
+}
+.suv {
+    background-color: var(--suv-blue);
+}
+.luxury {
+    background-color: var(--lux-blue);
+}
+
+@media screen and (min-width: 1440px) {
+    
 }
