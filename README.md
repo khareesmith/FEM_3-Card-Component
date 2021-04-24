@@ -37,8 +37,8 @@ View on Mobile 📱
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [Solution URL](https://www.frontendmentor.io/solutions/3column-preview-card-solution-5pbYaaLXa)
+- [Live Site URL](https://khareesmith.github.io/FEM_3-Card-Component/)
 ---
 ## My process
 
