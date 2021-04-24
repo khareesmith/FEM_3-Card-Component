@@ -137,5 +137,25 @@ button:active {
     padding: 9px 24px;
 }
 
-@media screen and (max-width: 1024px) {
+.attribution {
+    font-size: 11px; text-align: center;
 }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width:1024px) {
+    .container {
+      flex-direction: row;
+      margin: 25px;
+    }
+    .sedan {
+      border-radius: 10px 0 0 10px;
+    }
+    .luxury {
+      border-radius: 0 10px 10px 0;
+    }
+    p {
+      padding-bottom: 30px;
+    }
+  }
