@@ -53,15 +53,17 @@
     }
 /*CSS Reset End*/
 
-
+/*Styling for body and buttons' background colors*/
 body, button {
     background-color: var(--light-grey);
 }
 
+/*Default font size of 15 pixels*/
 body {
     font-size: 15px;
 }
 
+/*Default styling for all buttons*/
 button {
     border-radius: 50px;
     padding: 10px 25px;
@@ -69,8 +71,7 @@ button {
     font-family: 'Lexend Deca', sans-serif;
 }
 
-
-
+/*Styling for paragraphs in each section*/
 p {
     color: var(--white);
     font-family: 'Lexend Deca', sans-serif;
@@ -79,6 +80,7 @@ p {
     line-height: 1.6;
 }
 
+/*Styling for section headings*/
 h1 {
     color: var(--light-grey);
     padding-bottom: 10px;
@@ -86,17 +88,25 @@ h1 {
     font-size: 2rem;
 }
 
+/*Container wrapper styling. Flex allows for responsiveness*/
 .container {
     display: flex;
     flex-direction: column;
     margin: 15px;
 }
 
+/*Styling for each item in the container*/
 .container-item {
     padding: 25px;
     padding-left: 50px;
 }
 
+/*Styling for svg icons*/
+.icon {
+    padding: 20px 0;
+}
+
+/*Sedan section's content and button styling*/
 .sedan {
     background-color: var(--sedan-orange);
     border-radius: 10px 10px 0 0;
@@ -104,12 +114,16 @@ h1 {
 .sedan button {
     color: var(--sedan-orange);
 }
+
+/*SUV section's content and button styling*/
 .suv {
     background-color: var(--suv-blue);
 }
 .suv button {
     color: var(--suv-blue);
 }
+
+/*Luxury section's content and button styling*/
 .luxury {
     background-color: var(--lux-blue);
     border-radius: 0 0 10px 10px;
@@ -118,17 +132,13 @@ h1 {
     color: var(--lux-blue);
 }
 
-.icon {
-    padding: 20px 0;
-}
-
+/*Button hover and active styling. Mimics a clickable link*/
 button:hover {
     background: transparent;
     border: 1px solid var(--white);
     color: white;
     cursor: pointer;
 }
-
 button:active {
     background: transparent;
     border: 1px solid var(--white);
@@ -137,6 +147,7 @@ button:active {
     padding: 9px 24px;
 }
 
+/*Styling for attribution section*/
 .attribution {
     font-size: 11px; text-align: center;
 }
@@ -144,6 +155,7 @@ button:active {
     color: hsl(228, 45%, 44%);
 }
 
+/*Media query to change styling for desktops*/
 @media screen and (min-width:1024px) {
     .container {
       flex-direction: row;
